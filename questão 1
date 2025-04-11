@@ -1,0 +1,12 @@
+//escola
+const listaDeAlunos=['Mariana', 'João', 'Luiza', 'Ana', 'Gabrielle']
+console.log(listaDeAlunos)
+listaDeAlunos.shift()
+console.log(listaDeAlunos)
+console.log(typeof listaDeAlunos)
+const sala1=listaDeAlunos.slice(0,listaDeAlunos.length/2)
+const sala2=listaDeAlunos.slice(listaDeAlunos/2)
+console.log(sala1)
+console.log(sala2)
+const salasUnidas=sala1.concat(sala2)
+console.log(salasUnidas)
