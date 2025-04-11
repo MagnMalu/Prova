@@ -1,12 +1,16 @@
 //escola
 const listaDeAlunos=['Mariana', 'João', 'Luiza', 'Ana', 'Gabrielle']
 console.log(listaDeAlunos)
+//palavra oculta
 listaDeAlunos.shift()
 console.log(listaDeAlunos)
+//typeof caracteriza o objeto
 console.log(typeof listaDeAlunos)
+//slice divide
 const sala1=listaDeAlunos.slice(0,listaDeAlunos.length/2)
 const sala2=listaDeAlunos.slice(listaDeAlunos/2)
 console.log(sala1)
 console.log(sala2)
+//concat une as salas
 const salasUnidas=sala1.concat(sala2)
 console.log(salasUnidas)
